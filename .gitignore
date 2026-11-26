@@ -1,0 +1,6 @@
+files/
+node_modules/
+cli.env
+.env
+__pycache__/
+out/

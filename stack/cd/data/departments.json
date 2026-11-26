@@ -1,0 +1,36 @@
+{
+  "definition": {
+    "levels": [
+      {
+        "level": 0,
+        "properties": ["cdict:departmentId", "cdict:departmentName"]
+      }
+    ]
+  },
+  "data": [
+    {
+      "properties": {
+        "cdict:departmentId": "ENG",
+        "cdict:departmentName": "Engineering (general)"
+      }
+    },
+    {
+      "properties": {
+        "cdict:departmentId": "FIN",
+        "cdict:departmentName": "Finance"
+      }
+    },
+    {
+      "properties": {
+        "cdict:departmentId": "HR",
+        "cdict:departmentName": "Human Resources"
+      }
+    },
+    {
+      "properties": {
+        "cdict:departmentId": "SAL",
+        "cdict:departmentName": "Sales"
+      }
+    }
+  ]
+}

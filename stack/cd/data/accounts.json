@@ -1,0 +1,79 @@
+{
+  "definition": {
+    "levels": [
+      {
+        "level": 0,
+        "properties": ["cdict:accountCategory"]
+      },
+      {
+        "level": 1,
+        "properties": ["cdict:accountNumber", "cdict:accountName"]
+      }
+    ]
+  },
+  "data": [
+    {
+      "properties": {
+        "cdict:accountCategory": "Current Assets"
+      },
+      "children": [
+        {
+          "properties": {
+            "cdict:accountNumber": 1000,
+            "cdict:accountName": "Cash"
+          }
+        },
+        {
+          "properties": {
+            "cdict:accountNumber": 1010,
+            "cdict:accountName": "Petty Cash"
+          }
+        },
+        {
+          "properties": {
+            "cdict:accountNumber": 1100,
+            "cdict:accountName": "Accounts Receivable"
+          }
+        }
+      ]
+    },
+    {
+      "properties": {
+        "cdict:accountCategory": "Fixed Assets"
+      },
+      "children": [
+        {
+          "properties": {
+            "cdict:accountNumber": 1500,
+            "cdict:accountName": "Furniture & Fixtures"
+          }
+        },
+        {
+          "properties": {
+            "cdict:accountNumber": 1700,
+            "cdict:accountName": "Buildings"
+          }
+        }
+      ]
+    },
+    {
+      "properties": {
+        "cdict:accountCategory": "Revenue"
+      },
+      "children": [
+        {
+          "properties": {
+            "cdict:accountNumber": 4000,
+            "cdict:accountName": "Sales Revenue"
+          }
+        },
+        {
+          "properties": {
+            "cdict:accountNumber": 4100,
+            "cdict:accountName": "Service Revenue"
+          }
+        }
+      ]
+    }
+  ]
+}
